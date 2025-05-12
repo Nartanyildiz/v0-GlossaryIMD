@@ -1,0 +1,48 @@
+"use client"
+
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { MenuOverlay } from "@/components/menu-overlay"
+
+export default function LanguagePage() {
+  return (
+    <main className="min-h-screen bg-black text-[#008170] p-6 md:p-12">
+      <div className="max-w-3xl mx-auto">
+        <div className="flex justify-between items-center mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">GLOSSAIRE IMD</h1>
+          <MenuOverlay />
+        </div>
+
+        <Link href="/" className="flex items-center mb-12 text-[#008170]">
+          <ArrowLeft className="mr-2 h-5 w-5" />
+          <span>Retour à l'accueil</span>
+        </Link>
+
+        <div className="space-y-8">
+          <h2 className="text-3xl font-bold mb-6">LANGUE</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Button className="bg-[#1E2A3B] hover:bg-[#263447] text-[#008170] font-medium p-8 text-xl h-auto">
+              Français
+            </Button>
+
+            <Button className="bg-transparent border border-[#008170] hover:bg-[#1E2A3B] text-[#008170] font-medium p-8 text-xl h-auto">
+              English
+            </Button>
+
+            <Button className="bg-transparent border border-[#008170] hover:bg-[#1E2A3B] text-[#008170] font-medium p-8 text-xl h-auto">
+              Español
+            </Button>
+
+            <Button className="bg-transparent border border-[#008170] hover:bg-[#1E2A3B] text-[#008170] font-medium p-8 text-xl h-auto">
+              Deutsch
+            </Button>
+          </div>
+
+          <p className="text-center mt-8 text-[#008170]/70">La langue sélectionnée est le Français</p>
+        </div>
+      </div>
+    </main>
+  )
+}
