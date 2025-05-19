@@ -35,7 +35,45 @@ const dictionaryData = {
       "Nous avons itéré plusieurs versions de wireframes avant de trouver la structure optimale pour l'application.",
     ],
   },
-  // Autres définitions détaillées...
+  seo: {
+    word: "SEO",
+    partOfSpeech: "noun",
+    category: "Communication, Marketing",
+    definition:
+      "Ensemble de techniques visant à optimiser la visibilité d'un site web dans les résultats des moteurs de recherche.",
+    extendedDefinition:
+      "Le Search Engine Optimization regroupe un ensemble de méthodes et de techniques qui visent à améliorer le positionnement d'un site web dans les résultats organiques des moteurs de recherche. Cela inclut l'optimisation du contenu, des balises HTML, de la structure du site et des liens entrants.",
+    etymology: "Acronyme de l'anglais 'Search Engine Optimization' (optimisation pour les moteurs de recherche).",
+    examples: [
+      "Une bonne stratégie SEO a permis au site d'apparaître en première page des résultats de recherche.",
+      "L'expert en SEO a recommandé d'améliorer la vitesse de chargement du site pour un meilleur classement.",
+      "L'analyse des mots-clés est une étape fondamentale dans toute démarche SEO efficace.",
+    ],
+  },
+  moodboard: {
+    word: "Moodboard",
+    partOfSpeech: "noun",
+    category: "Communication, Marketing",
+    definition:
+      "Planche d'inspiration visuelle regroupant des images, couleurs, textures et éléments graphiques pour définir l'ambiance d'un projet.",
+    extendedDefinition:
+      "Un moodboard est un outil créatif qui permet de rassembler et d'organiser des éléments visuels pour communiquer une ambiance, un style ou une direction créative. Il sert de référence visuelle et de guide pour maintenir la cohérence tout au long d'un projet.",
+    etymology: "De l'anglais 'mood' (humeur, ambiance) et 'board' (tableau, planche).",
+    examples: [
+      "Le directeur artistique a préparé un moodboard pour présenter sa vision du projet au client.",
+      "Le moodboard incluait des photographies urbaines, une palette de couleurs industrielles et des typographies modernes.",
+      "Grâce au moodboard, toute l'équipe créative était alignée sur l'esthétique recherchée pour la campagne.",
+    ],
+  },
+  // Ajoutez d'autres mots ici selon vos besoins
+}
+
+// Cette fonction est nécessaire pour la génération statique avec output: export
+export function generateStaticParams() {
+  // Retourne un tableau d'objets avec les paramètres pour chaque page statique à générer
+  return Object.keys(dictionaryData).map((word) => ({
+    word: word.toLowerCase(),
+  }))
 }
 
 export default function WordPage({ params }: { params: { word: string } }) {
