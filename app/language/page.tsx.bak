@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ArrowLeft } from "lucide-react"
+import { ArrowLeft } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { MenuOverlay } from "@/components/menu-overlay"
 
@@ -10,7 +10,11 @@ export default function LanguagePage() {
     <main className="min-h-screen bg-black text-[#008170] p-6 md:p-12">
       <div className="max-w-3xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">GLOSSAIRE IMD</h1>
+          <Link href="/">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight hover:text-[#00a58c] transition-colors">
+              GLOSSAIRE IMD
+            </h1>
+          </Link>
           <MenuOverlay />
         </div>
 

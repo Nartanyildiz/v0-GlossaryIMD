@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { MenuOverlay } from "@/components/menu-overlay"
+import { useLanguage } from "@/contexts/language-context"
 
 // Définition des catégories
 const categories = [
@@ -34,13 +35,18 @@ const categories = [
 ]
 
 export default function CategoriesPage() {
+  const { translateCategory } = useLanguage()
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
     <main className="min-h-screen bg-black text-[#008170] p-6 md:p-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">GLOSSAIRE IMD</h1>
+          <Link href="/">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight hover:text-[#00a58c] transition-colors">
+              GLOSSAIRE IMD
+            </h1>
+          </Link>
           <MenuOverlay />
         </div>
 
@@ -56,7 +62,7 @@ export default function CategoriesPage() {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <h2 className="text-3xl font-medium leading-tight">{category.name}</h2>
+              <h2 className="text-3xl font-medium leading-tight">{translateCategory(category.name)}</h2>
             </Link>
           ))}
         </div>
