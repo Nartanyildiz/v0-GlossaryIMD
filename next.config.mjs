@@ -1,12 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Vous pouvez soit:
-  // 1. Garder output: 'export' et utiliser generateStaticParams
-  output: "export",
-  distDir: "docs",
-
-  // 2. OU commenter/supprimer la ligne ci-dessus pour utiliser le rendu côté serveur
-  // ce qui est plus adapté pour un dictionnaire qui pourrait s'agrandir
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -16,6 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
