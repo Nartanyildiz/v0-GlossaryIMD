@@ -1,0 +1,31 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "categories": "Catégories",
+    "list": "Liste",
+    "frames": "Cadres",
+    "language": "Langue",
+    "darkMode": "Mode sombre"
+  },
+  "home": {
+    "title": "Dictionnaire Design & Tech",
+    "subtitle": "Un dictionnaire complet des termes de design, développement web, marketing et technologies créatives",
+    "searchPlaceholder": "Rechercher un terme...",
+    "allTerms": "Tous les termes",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "categories": {
+    "communication-marketing": "Communication, Marketing",
+    "design-graphique-typo": "Design graphique, Typo",
+    "ui-ux": "UI, UX",
+    "web-code": "Web, Code",
+    "photo-video-audio": "Photo, Vidéo, Audio",
+    "autre-ressources": "Autres ressources"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "Anglais",
+    "de": "Allemand",
+    "it": "Italien"
+  }
+}

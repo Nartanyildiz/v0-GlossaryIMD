@@ -84,14 +84,14 @@ export default function WordPage({ params }: { params: { word: string } }) {
       <main className="min-h-screen bg-[#0F0F0F] py-8 px-4">
         <div className="max-w-4xl mx-auto">
           <Link href="/list">
-            <Button variant="ghost" className="mb-4 text-[#005B41] hover:bg-[#232D3F]/50">
+            <Button variant="ghost" className="mb-4 text-[#00D0B4] hover:bg-[#232D3F]/50">
               <ArrowLeft className="mr-2 h-4 w-4" /> Retour au glossaire
             </Button>
           </Link>
           <Card className="bg-[#232D3F] border-[#005B41]">
             <CardHeader>
-              <CardTitle className="text-[#008170]">Mot non trouvé</CardTitle>
-              <CardDescription className="text-[#008170]">
+              <CardTitle className="text-[#00D0B4]">Mot non trouvé</CardTitle>
+              <CardDescription className="text-[#00D0B4]">
                 Nous n'avons pas pu trouver le mot "{params.word}" dans notre glossaire.
               </CardDescription>
             </CardHeader>
@@ -105,7 +105,7 @@ export default function WordPage({ params }: { params: { word: string } }) {
     <main className="min-h-screen bg-[#0F0F0F] py-8 px-4">
       <div className="max-w-4xl mx-auto">
         <Link href="/list">
-          <Button variant="ghost" className="mb-4 text-[#005B41] hover:bg-[#232D3F]/50">
+          <Button variant="ghost" className="mb-4 text-[#00D0B4] hover:bg-[#232D3F]/50">
             <ArrowLeft className="mr-2 h-4 w-4" /> Retour au glossaire
           </Button>
         </Link>
@@ -114,30 +114,30 @@ export default function WordPage({ params }: { params: { word: string } }) {
           <CardHeader>
             <div className="flex justify-between items-start">
               <div>
-                <CardTitle className="text-3xl text-[#008170]">{wordData.word}</CardTitle>
-                <div className="text-sm text-[#008170]/70 mt-1">Catégorie: {wordData.category}</div>
+                <CardTitle className="text-3xl text-[#00D0B4]">{wordData.word}</CardTitle>
+                <div className="text-sm text-[#00D0B4]/70 mt-1"></div>
               </div>
               <span className="text-sm px-2 py-1 bg-[#0F0F0F] rounded-full text-[#005B41] border border-[#005B41]">
-                {wordData.partOfSpeech}
+                {wordData.category}
               </span>
             </div>
           </CardHeader>
           <CardContent className="space-y-6">
             <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#008170]">Définition</h3>
-              <p className="text-[#008170]">{wordData.extendedDefinition}</p>
+              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Définition</h3>
+              <p className="text-[#00D0B4]">{wordData.extendedDefinition}</p>
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#008170]">Étymologie</h3>
-              <p className="text-[#008170]">{wordData.etymology}</p>
+              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Étymologie</h3>
+              <p className="text-[#00D0B4]">{wordData.etymology}</p>
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#008170]">Exemples</h3>
+              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Exemples</h3>
               <ul className="list-disc pl-5 space-y-1">
                 {wordData.examples.map((example, index) => (
-                  <li key={index} className="text-[#008170]">
+                  <li key={index} className="text-[#00D0B4]">
                     {example}
                   </li>
                 ))}

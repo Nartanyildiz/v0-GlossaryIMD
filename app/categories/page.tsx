@@ -39,11 +39,11 @@ export default function CategoriesPage() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
   return (
-    <main className="min-h-screen bg-black text-[#008170] p-6 md:p-12">
+    <main className="min-h-screen bg-black text-[#00D0B4] p-6 md:p-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-16">
           <Link href="/">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight hover:text-[#00a58c] transition-colors">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight hover:text-[#00E5C7] text-[#00D0B4]">
               GLOSSAIRE IMD
             </h1>
           </Link>
@@ -56,13 +56,15 @@ export default function CategoriesPage() {
               key={index}
               href={`/category/${category.slug}`}
               className={cn(
-                "aspect-square bg-[#1E2A3B] p-8 flex items-start transition-all duration-300",
+                "aspect-square bg-[#232D3F] p-8 flex items-start transition-all duration-300",
                 hoveredIndex === index ? "scale-[1.03]" : "",
               )}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <h2 className="text-3xl font-medium leading-tight">{translateCategory(category.name)}</h2>
+              <h2 className="text-3xl font-heading font-medium leading-tight text-[#00D0B4]">
+                {translateCategory(category.name)}
+              </h2>
             </Link>
           ))}
         </div>

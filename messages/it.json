@@ -1,0 +1,31 @@
+{
+  "navigation": {
+    "home": "Home",
+    "categories": "Categorie",
+    "list": "Lista",
+    "frames": "Cornici",
+    "language": "Lingua",
+    "darkMode": "Modalità Scura"
+  },
+  "home": {
+    "title": "Dizionario Design & Tech",
+    "subtitle": "Un dizionario completo di termini di design, sviluppo web, marketing e tecnologie creative",
+    "searchPlaceholder": "Cerca un termine...",
+    "allTerms": "Tutti i termini",
+    "noResults": "Nessun risultato trovato"
+  },
+  "categories": {
+    "communication-marketing": "Comunicazione, Marketing",
+    "design-graphique-typo": "Design Grafico, Tipografia",
+    "ui-ux": "UI, UX",
+    "web-code": "Web, Codice",
+    "photo-video-audio": "Foto, Video, Audio",
+    "autre-ressources": "Altre Risorse"
+  },
+  "languages": {
+    "fr": "Francese",
+    "en": "Inglese",
+    "de": "Tedesco",
+    "it": "Italiano"
+  }
+}

@@ -337,6 +337,156 @@ export const categoryData = {
         },
         partOfSpeech: "noun",
       },
+      {
+        word: "Sans serif",
+        definition: {
+          FR: "Police de caractères sans empattement, offrant un aspect moderne et épuré.",
+          ALL: "Schriftart ohne Serifen, die ein modernes und sauberes Aussehen bietet.",
+          IT: "Carattere tipografico senza grazie, che offre un aspetto moderno e pulito.",
+          ANGL: "Typeface without serifs, offering a modern and clean appearance.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Resolution (Pixel density)",
+        definition: {
+          FR: "Densité de pixels qui détermine la netteté et la qualité d'affichage d'une image sur différents écrans.",
+          ALL: "Pixeldichte, die die Schärfe und Anzeigequalität eines Bildes auf verschiedenen Bildschirmen bestimmt.",
+          IT: "Densità di pixel che determina la nitidezza e la qualità di visualizzazione di un'immagine su diversi schermi.",
+          ANGL: "Pixel density that determines the sharpness and display quality of an image on different screens.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Grid system",
+        definition: {
+          FR: "Structure de lignes et colonnes utilisée pour organiser et aligner les éléments dans une mise en page.",
+          ALL: "Struktur aus Linien und Spalten, die zur Organisation und Ausrichtung von Elementen in einem Layout verwendet wird.",
+          IT: "Struttura di linee e colonne utilizzata per organizzare e allineare gli elementi in un layout.",
+          ANGL: "Structure of lines and columns used to organize and align elements in a layout.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "RGB",
+        definition: {
+          FR: "Modèle de couleur additif basé sur les couleurs primaires Rouge, Vert et Bleu pour l'affichage numérique.",
+          ALL: "Additives Farbmodell basierend auf den Primärfarben Rot, Grün und Blau für die digitale Anzeige.",
+          IT: "Modello di colore additivo basato sui colori primari Rosso, Verde e Blu per la visualizzazione digitale.",
+          ANGL: "Additive color model based on Red, Green, and Blue primary colors for digital display.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Tracking/Letter spacing",
+        definition: {
+          FR: "Espacement uniforme entre tous les caractères d'un texte pour améliorer la lisibilité.",
+          ALL: "Gleichmäßiger Abstand zwischen allen Zeichen eines Textes zur Verbesserung der Lesbarkeit.",
+          IT: "Spaziatura uniforme tra tutti i caratteri di un testo per migliorare la leggibilità.",
+          ANGL: "Uniform spacing between all characters in text to improve readability.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Color theory",
+        definition: {
+          FR: "Ensemble de principes qui guident l'utilisation et la combinaison des couleurs dans le design.",
+          ALL: "Sammlung von Prinzipien, die die Verwendung und Kombination von Farben im Design leiten.",
+          IT: "Insieme di principi che guidano l'uso e la combinazione dei colori nel design.",
+          ANGL: "Set of principles that guide the use and combination of colors in design.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Raster / Vector Images",
+        definition: {
+          FR: "Images matricielles (pixels) vs images vectorielles (formes mathématiques) avec différentes propriétés de redimensionnement.",
+          ALL: "Rasterbilder (Pixel) vs. Vektorbilder (mathematische Formen) mit unterschiedlichen Skalierungseigenschaften.",
+          IT: "Immagini raster (pixel) vs immagini vettoriali (forme matematiche) con diverse proprietà di ridimensionamento.",
+          ANGL: "Raster images (pixels) vs vector images (mathematical shapes) with different scaling properties.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Leading – interlignage",
+        definition: {
+          FR: "Espacement vertical entre les lignes de texte, crucial pour la lisibilité et l'esthétique typographique.",
+          ALL: "Vertikaler Abstand zwischen Textzeilen, entscheidend für Lesbarkeit und typografische Ästhetik.",
+          IT: "Spaziatura verticale tra le righe di testo, cruciale per la leggibilità e l'estetica tipografica.",
+          ANGL: "Vertical spacing between lines of text, crucial for readability and typographic aesthetics.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Justification",
+        definition: {
+          FR: "Alignement du texte sur les marges gauche et droite en ajustant l'espacement entre les mots.",
+          ALL: "Ausrichtung des Textes an den linken und rechten Rändern durch Anpassung des Wortabstands.",
+          IT: "Allineamento del testo sui margini sinistro e destro regolando la spaziatura tra le parole.",
+          ANGL: "Alignment of text to both left and right margins by adjusting word spacing.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Data visualization",
+        definition: {
+          FR: "Représentation graphique de données pour faciliter leur compréhension et leur analyse.",
+          ALL: "Grafische Darstellung von Daten zur Erleichterung ihres Verständnisses und ihrer Analyse.",
+          IT: "Rappresentazione grafica dei dati per facilitarne la comprensione e l'analisi.",
+          ANGL: "Graphic representation of data to facilitate understanding and analysis.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Charte Graphique",
+        definition: {
+          FR: "Document définissant l'identité visuelle d'une marque avec ses règles d'utilisation.",
+          ALL: "Dokument, das die visuelle Identität einer Marke mit ihren Verwendungsregeln definiert.",
+          IT: "Documento che definisce l'identità visiva di un marchio con le sue regole d'uso.",
+          ANGL: "Document defining a brand's visual identity with its usage guidelines.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Quadrichromie (CMJN)",
+        definition: {
+          FR: "Procédé d'impression utilisant quatre couleurs de base : Cyan, Magenta, Jaune et Noir.",
+          ALL: "Druckverfahren mit vier Grundfarben: Cyan, Magenta, Gelb und Schwarz.",
+          IT: "Processo di stampa che utilizza quattro colori di base: Ciano, Magenta, Giallo e Nero.",
+          ANGL: "Printing process using four basic colors: Cyan, Magenta, Yellow, and Black.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Sketching",
+        definition: {
+          FR: "Technique de dessin rapide pour explorer et communiquer des idées visuelles.",
+          ALL: "Schnelle Zeichentechnik zur Erkundung und Kommunikation visueller Ideen.",
+          IT: "Tecnica di disegno rapido per esplorare e comunicare idee visive.",
+          ANGL: "Quick drawing technique for exploring and communicating visual ideas.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Colorimétrie",
+        definition: {
+          FR: "Science de la mesure et de la reproduction précise des couleurs.",
+          ALL: "Wissenschaft der Messung und präzisen Reproduktion von Farben.",
+          IT: "Scienza della misurazione e riproduzione precisa dei colori.",
+          ANGL: "Science of measuring and precisely reproducing colors.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Gris typographique",
+        definition: {
+          FR: "Densité visuelle uniforme d'un bloc de texte, créant une texture grise homogène.",
+          ALL: "Gleichmäßige visuelle Dichte eines Textblocks, die eine homogene graue Textur erzeugt.",
+          IT: "Densità visiva uniforme di un blocco di testo, creando una texture grigia omogenea.",
+          ANGL: "Uniform visual density of a text block, creating a homogeneous gray texture.",
+        },
+        partOfSpeech: "noun",
+      },
     ],
   },
   "ui-ux": {
@@ -369,6 +519,166 @@ export const categoryData = {
           ALL: "Grafische Darstellung von Daten, bei der Werte durch Farben dargestellt werden, häufig verwendet, um das Benutzerverhalten auf einer Benutzeroberfläche zu visualisieren.",
           IT: "Rappresentazione grafica dei dati in cui i valori sono rappresentati da colori, spesso utilizzata per visualizzare il comportamento degli utenti su un'interfaccia.",
           ANGL: "Graphical representation of data where values are represented by colors, often used to visualize user behavior on an interface.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User Experience (UX)",
+        definition: {
+          FR: "Expérience globale d'un utilisateur lors de l'interaction avec un produit ou service.",
+          ALL: "Gesamterfahrung eines Benutzers bei der Interaktion mit einem Produkt oder einer Dienstleistung.",
+          IT: "Esperienza complessiva di un utente durante l'interazione con un prodotto o servizio.",
+          ANGL: "Overall experience of a user when interacting with a product or service.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User Interface (UI)",
+        definition: {
+          FR: "Interface par laquelle l'utilisateur interagit avec un système numérique.",
+          ALL: "Schnittstelle, über die der Benutzer mit einem digitalen System interagiert.",
+          IT: "Interfaccia attraverso la quale l'utente interagisce con un sistema digitale.",
+          ANGL: "Interface through which the user interacts with a digital system.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User Testing",
+        definition: {
+          FR: "Méthode d'évaluation d'un produit en observant des utilisateurs réels l'utiliser.",
+          ALL: "Bewertungsmethode eines Produkts durch Beobachtung echter Benutzer bei der Verwendung.",
+          IT: "Metodo di valutazione di un prodotto osservando utenti reali che lo utilizzano.",
+          ANGL: "Method of evaluating a product by observing real users using it.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Persona",
+        definition: {
+          FR: "Représentation fictive d'un utilisateur type basée sur des données réelles.",
+          ALL: "Fiktive Darstellung eines typischen Benutzers basierend auf realen Daten.",
+          IT: "Rappresentazione fittizia di un utente tipo basata su dati reali.",
+          ANGL: "Fictional representation of a typical user based on real data.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Prototype",
+        definition: {
+          FR: "Version préliminaire d'un produit utilisée pour tester et valider des concepts.",
+          ALL: "Vorläufige Version eines Produkts, die zum Testen und Validieren von Konzepten verwendet wird.",
+          IT: "Versione preliminare di un prodotto utilizzata per testare e validare concetti.",
+          ANGL: "Preliminary version of a product used to test and validate concepts.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Sitemap",
+        definition: {
+          FR: "Diagramme hiérarchique montrant la structure et l'organisation d'un site web.",
+          ALL: "Hierarchisches Diagramm, das die Struktur und Organisation einer Website zeigt.",
+          IT: "Diagramma gerarchico che mostra la struttura e l'organizzazione di un sito web.",
+          ANGL: "Hierarchical diagram showing the structure and organization of a website.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Breadcrumb / fil d'Ariane",
+        definition: {
+          FR: "Navigation secondaire montrant le chemin parcouru dans la hiérarchie du site.",
+          ALL: "Sekundäre Navigation, die den zurückgelegten Pfad in der Site-Hierarchie zeigt.",
+          IT: "Navigazione secondaria che mostra il percorso seguito nella gerarchia del sito.",
+          ANGL: "Secondary navigation showing the path taken in the site hierarchy.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Contrast ratio",
+        definition: {
+          FR: "Rapport de luminosité entre deux couleurs, crucial pour l'accessibilité visuelle.",
+          ALL: "Helligkeitsverhältnis zwischen zwei Farben, entscheidend für die visuelle Zugänglichkeit.",
+          IT: "Rapporto di luminosità tra due colori, cruciale per l'accessibilità visiva.",
+          ANGL: "Brightness ratio between two colors, crucial for visual accessibility.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Accessibility (W3C / WAI / BITV)",
+        definition: {
+          FR: "Conception inclusive permettant l'utilisation par des personnes avec différents handicaps.",
+          ALL: "Inklusives Design, das die Nutzung durch Menschen mit verschiedenen Behinderungen ermöglicht.",
+          IT: "Progettazione inclusiva che consente l'uso da parte di persone con diverse disabilità.",
+          ANGL: "Inclusive design enabling use by people with various disabilities.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Flow Chart",
+        definition: {
+          FR: "Diagramme représentant les étapes d'un processus ou d'un parcours utilisateur.",
+          ALL: "Diagramm, das die Schritte eines Prozesses oder einer Benutzerreise darstellt.",
+          IT: "Diagramma che rappresenta i passaggi di un processo o di un percorso utente.",
+          ANGL: "Diagram representing the steps of a process or user journey.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User research",
+        definition: {
+          FR: "Étude systématique des besoins, comportements et motivations des utilisateurs.",
+          ALL: "Systematische Untersuchung der Bedürfnisse, Verhaltensweisen und Motivationen der Benutzer.",
+          IT: "Studio sistematico dei bisogni, comportamenti e motivazioni degli utenti.",
+          ANGL: "Systematic study of user needs, behaviors, and motivations.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User Flow",
+        definition: {
+          FR: "Chemin que suit un utilisateur pour accomplir une tâche dans une interface.",
+          ALL: "Pfad, den ein Benutzer befolgt, um eine Aufgabe in einer Benutzeroberfläche zu erfüllen.",
+          IT: "Percorso che segue un utente per completare un compito in un'interfaccia.",
+          ANGL: "Path a user follows to complete a task in an interface.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "User Journey",
+        definition: {
+          FR: "Expérience complète d'un utilisateur avec un produit ou service dans le temps.",
+          ALL: "Vollständige Erfahrung eines Benutzers mit einem Produkt oder einer Dienstleistung über die Zeit.",
+          IT: "Esperienza completa di un utente con un prodotto o servizio nel tempo.",
+          ANGL: "Complete experience of a user with a product or service over time.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Flat design",
+        definition: {
+          FR: "Style de design minimaliste évitant les effets 3D et privilégiant la simplicité.",
+          ALL: "Minimalistischer Designstil, der 3D-Effekte vermeidet und Einfachheit bevorzugt.",
+          IT: "Stile di design minimalista che evita gli effetti 3D e privilegia la semplicità.",
+          ANGL: "Minimalist design style avoiding 3D effects and favoring simplicity.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Modal window",
+        definition: {
+          FR: "Fenêtre qui apparaît au-dessus du contenu principal et nécessite une interaction.",
+          ALL: "Fenster, das über dem Hauptinhalt erscheint und eine Interaktion erfordert.",
+          IT: "Finestra che appare sopra il contenuto principale e richiede un'interazione.",
+          ANGL: "Window that appears above the main content and requires interaction.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Mobile first",
+        definition: {
+          FR: "Approche de conception commençant par la version mobile avant les écrans plus grands.",
+          ALL: "Designansatz, der mit der mobilen Version beginnt, bevor größere Bildschirme berücksichtigt werden.",
+          IT: "Approccio di progettazione che inizia con la versione mobile prima degli schermi più grandi.",
+          ANGL: "Design approach starting with the mobile version before larger screens.",
         },
         partOfSpeech: "noun",
       },
@@ -407,6 +717,206 @@ export const categoryData = {
         },
         partOfSpeech: "adjective",
       },
+      {
+        word: "HTML (HyperText Markup Language)",
+        definition: {
+          FR: "Langage de balisage standard pour créer des pages web et des applications web.",
+          ALL: "Standard-Markup-Sprache zur Erstellung von Webseiten und Webanwendungen.",
+          IT: "Linguaggio di markup standard per creare pagine web e applicazioni web.",
+          ANGL: "Standard markup language for creating web pages and web applications.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "CSS (Cascading Style Sheets)",
+        definition: {
+          FR: "Langage de style utilisé pour décrire la présentation d'un document HTML.",
+          ALL: "Stylesheet-Sprache zur Beschreibung der Darstellung eines HTML-Dokuments.",
+          IT: "Linguaggio di stile utilizzato per descrivere la presentazione di un documento HTML.",
+          ANGL: "Style sheet language used to describe the presentation of an HTML document.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Breakpoint",
+        definition: {
+          FR: "Point de rupture dans le design responsive où la mise en page s'adapte à différentes tailles d'écran.",
+          ALL: "Haltepunkt im responsiven Design, wo sich das Layout an verschiedene Bildschirmgrößen anpasst.",
+          IT: "Punto di interruzione nel design responsive dove il layout si adatta a diverse dimensioni dello schermo.",
+          ANGL: "Breaking point in responsive design where layout adapts to different screen sizes.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "SVG",
+        definition: {
+          FR: "Format d'image vectorielle basé sur XML, idéal pour les graphiques web évolutifs.",
+          ALL: "XML-basiertes Vektorbildformat, ideal für skalierbare Webgrafiken.",
+          IT: "Formato di immagine vettoriale basato su XML, ideale per grafiche web scalabili.",
+          ANGL: "XML-based vector image format, ideal for scalable web graphics.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Domain name",
+        definition: {
+          FR: "Adresse textuelle unique identifiant un site web sur Internet.",
+          ALL: "Eindeutige Textadresse, die eine Website im Internet identifiziert.",
+          IT: "Indirizzo testuale unico che identifica un sito web su Internet.",
+          ANGL: "Unique textual address identifying a website on the Internet.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Flexbox",
+        definition: {
+          FR: "Méthode de mise en page CSS permettant d'organiser les éléments de manière flexible.",
+          ALL: "CSS-Layout-Methode zur flexiblen Organisation von Elementen.",
+          IT: "Metodo di layout CSS che consente di organizzare gli elementi in modo flessibile.",
+          ANGL: "CSS layout method for flexibly organizing elements.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Front End / Back End",
+        definition: {
+          FR: "Interface utilisateur visible (Front End) vs logique serveur invisible (Back End).",
+          ALL: "Sichtbare Benutzeroberfläche (Front End) vs. unsichtbare Serverlogik (Back End).",
+          IT: "Interfaccia utente visibile (Front End) vs logica server invisibile (Back End).",
+          ANGL: "Visible user interface (Front End) vs invisible server logic (Back End).",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Web App",
+        definition: {
+          FR: "Application logicielle accessible via un navigateur web sans installation.",
+          ALL: "Softwareanwendung, die über einen Webbrowser ohne Installation zugänglich ist.",
+          IT: "Applicazione software accessibile tramite un browser web senza installazione.",
+          ANGL: "Software application accessible through a web browser without installation.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "FTP",
+        definition: {
+          FR: "Protocole de transfert de fichiers pour échanger des données entre ordinateurs.",
+          ALL: "Dateiübertragungsprotokoll zum Austausch von Daten zwischen Computern.",
+          IT: "Protocollo di trasferimento file per scambiare dati tra computer.",
+          ANGL: "File Transfer Protocol for exchanging data between computers.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "URL",
+        definition: {
+          FR: "Adresse web complète permettant de localiser une ressource sur Internet.",
+          ALL: "Vollständige Webadresse zur Lokalisierung einer Ressource im Internet.",
+          IT: "Indirizzo web completo per localizzare una risorsa su Internet.",
+          ANGL: "Complete web address for locating a resource on the Internet.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Favicon",
+        definition: {
+          FR: "Petite icône représentant un site web, affichée dans l'onglet du navigateur.",
+          ALL: "Kleines Symbol, das eine Website repräsentiert und im Browser-Tab angezeigt wird.",
+          IT: "Piccola icona che rappresenta un sito web, visualizzata nella scheda del browser.",
+          ANGL: "Small icon representing a website, displayed in the browser tab.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Hosting",
+        definition: {
+          FR: "Service d'hébergement web permettant de rendre un site accessible sur Internet.",
+          ALL: "Web-Hosting-Service, der eine Website im Internet zugänglich macht.",
+          IT: "Servizio di hosting web che rende un sito accessibile su Internet.",
+          ANGL: "Web hosting service that makes a website accessible on the Internet.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "AJAX",
+        definition: {
+          FR: "Technique permettant de mettre à jour des parties d'une page web sans rechargement complet.",
+          ALL: "Technik zur Aktualisierung von Teilen einer Webseite ohne vollständiges Neuladen.",
+          IT: "Tecnica per aggiornare parti di una pagina web senza ricaricamento completo.",
+          ANGL: "Technique for updating parts of a web page without complete reload.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Viewport",
+        definition: {
+          FR: "Zone visible d'une page web dans le navigateur, variable selon l'appareil.",
+          ALL: "Sichtbarer Bereich einer Webseite im Browser, variiert je nach Gerät.",
+          IT: "Area visibile di una pagina web nel browser, variabile secondo il dispositivo.",
+          ANGL: "Visible area of a web page in the browser, varies by device.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "CSS Grid",
+        definition: {
+          FR: "Système de mise en page CSS bidimensionnel pour créer des grilles complexes.",
+          ALL: "Zweidimensionales CSS-Layout-System zur Erstellung komplexer Raster.",
+          IT: "Sistema di layout CSS bidimensionale per creare griglie complesse.",
+          ANGL: "Two-dimensional CSS layout system for creating complex grids.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Version control",
+        definition: {
+          FR: "Système de gestion des versions de code permettant de suivre les modifications.",
+          ALL: "Versionsverwaltungssystem zur Verfolgung von Code-Änderungen.",
+          IT: "Sistema di controllo delle versioni per tracciare le modifiche del codice.",
+          ANGL: "System for managing code versions and tracking changes.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Native app",
+        definition: {
+          FR: "Application développée spécifiquement pour un système d'exploitation mobile.",
+          ALL: "Anwendung, die speziell für ein mobiles Betriebssystem entwickelt wurde.",
+          IT: "Applicazione sviluppata specificamente per un sistema operativo mobile.",
+          ANGL: "Application developed specifically for a mobile operating system.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Bootstrap",
+        definition: {
+          FR: "Framework CSS populaire pour développer rapidement des interfaces web responsives.",
+          ALL: "Beliebtes CSS-Framework für die schnelle Entwicklung responsiver Web-Interfaces.",
+          IT: "Framework CSS popolare per sviluppare rapidamente interfacce web responsive.",
+          ANGL: "Popular CSS framework for rapidly developing responsive web interfaces.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Tailwind CSS",
+        definition: {
+          FR: "Framework CSS utilitaire permettant de styliser rapidement sans écrire de CSS personnalisé.",
+          ALL: "Utility-CSS-Framework für schnelles Styling ohne benutzerdefinierten CSS-Code.",
+          IT: "Framework CSS utility per stilizzare rapidamente senza scrivere CSS personalizzato.",
+          ANGL: "Utility CSS framework for rapid styling without writing custom CSS.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "IDE (Integrated development environment)",
+        definition: {
+          FR: "Environnement de développement intégré combinant éditeur, débogueur et outils de compilation.",
+          ALL: "Integrierte Entwicklungsumgebung, die Editor, Debugger und Kompilierungstools kombiniert.",
+          IT: "Ambiente di sviluppo integrato che combina editor, debugger e strumenti di compilazione.",
+          ANGL: "Integrated development environment combining editor, debugger, and compilation tools.",
+        },
+        partOfSpeech: "noun",
+      },
     ],
   },
   "photo-video-audio": {
@@ -439,6 +949,176 @@ export const categoryData = {
           ALL: "Technik, bei der visuelle Elemente aus separaten Quellen zu einem einzigen Bild kombiniert werden, oft in der Postproduktion verwendet.",
           IT: "Tecnica che consiste nel combinare elementi visivi da fonti separate in un'unica immagine, spesso utilizzata in post-produzione.",
           ANGL: "Technique of combining visual elements from separate sources into a single image, often used in post-production.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Pixel",
+        definition: {
+          FR: "Plus petit élément d'une image numérique, unité de base de l'affichage.",
+          ALL: "Kleinstes Element eines digitalen Bildes, Grundeinheit der Anzeige.",
+          IT: "Elemento più piccolo di un'immagine digitale, unità base del display.",
+          ANGL: "Smallest element of a digital image, basic unit of display.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "XLR",
+        definition: {
+          FR: "Connecteur audio professionnel à trois broches pour équipements de haute qualité.",
+          ALL: "Professioneller Audio-Stecker mit drei Pins für hochwertige Geräte.",
+          IT: "Connettore audio professionale a tre pin per apparecchiature di alta qualità.",
+          ANGL: "Professional three-pin audio connector for high-quality equipment.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Capteur / Sensor",
+        definition: {
+          FR: "Composant électronique qui capture la lumière et la convertit en signal numérique.",
+          ALL: "Elektronische Komponente, die Licht einfängt und in ein digitales Signal umwandelt.",
+          IT: "Componente elettronico che cattura la luce e la converte in segnale digitale.",
+          ANGL: "Electronic component that captures light and converts it to digital signal.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Interframe vs Intraframe Codecs",
+        definition: {
+          FR: "Codecs compressant entre images (interframe) vs dans chaque image (intraframe).",
+          ALL: "Codecs, die zwischen Bildern (Interframe) vs. in jedem Bild (Intraframe) komprimieren.",
+          IT: "Codec che comprimono tra immagini (interframe) vs in ogni immagine (intraframe).",
+          ANGL: "Codecs compressing between frames (interframe) vs within each frame (intraframe).",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Workflow",
+        definition: {
+          FR: "Flux de travail organisé définissant les étapes de production audiovisuelle.",
+          ALL: "Organisierter Arbeitsablauf, der die Schritte der audiovisuellen Produktion definiert.",
+          IT: "Flusso di lavoro organizzato che definisce le fasi della produzione audiovisiva.",
+          ANGL: "Organized workflow defining the steps of audiovisual production.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "RAW",
+        definition: {
+          FR: "Format d'image non compressé contenant toutes les données du capteur.",
+          ALL: "Unkomprimiertes Bildformat, das alle Sensordaten enthält.",
+          IT: "Formato immagine non compresso contenente tutti i dati del sensore.",
+          ANGL: "Uncompressed image format containing all sensor data.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Profondeur de champ / Depth of field",
+        definition: {
+          FR: "Zone de netteté dans une image, contrôlée par l'ouverture du diaphragme.",
+          ALL: "Schärfezone in einem Bild, gesteuert durch die Blendenöffnung.",
+          IT: "Zona di nitidezza in un'immagine, controllata dall'apertura del diaframma.",
+          ANGL: "Zone of sharpness in an image, controlled by aperture opening.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "ISO",
+        definition: {
+          FR: "Sensibilité du capteur à la lumière, affectant la luminosité et le bruit de l'image.",
+          ALL: "Lichtempfindlichkeit des Sensors, beeinflusst Helligkeit und Bildrauschen.",
+          IT: "Sensibilità del sensore alla luce, influenza luminosità e rumore dell'immagine.",
+          ANGL: "Sensor sensitivity to light, affecting image brightness and noise.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "HDR (High Dynamic Range)",
+        definition: {
+          FR: "Technique capturant une gamme étendue de luminosité pour des images plus réalistes.",
+          ALL: "Technik zur Erfassung eines erweiterten Helligkeitsbereichs für realistischere Bilder.",
+          IT: "Tecnica che cattura una gamma estesa di luminosità per immagini più realistiche.",
+          ANGL: "Technique capturing extended brightness range for more realistic images.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Motion design",
+        definition: {
+          FR: "Art de donner vie aux éléments graphiques par l'animation et le mouvement.",
+          ALL: "Kunst, grafische Elemente durch Animation und Bewegung zum Leben zu erwecken.",
+          IT: "Arte di dare vita agli elementi grafici attraverso animazione e movimento.",
+          ANGL: "Art of bringing graphic elements to life through animation and movement.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Animatic",
+        definition: {
+          FR: "Version animée préliminaire d'un storyboard avec timing et mouvement.",
+          ALL: "Vorläufige animierte Version eines Storyboards mit Timing und Bewegung.",
+          IT: "Versione animata preliminare di uno storyboard con timing e movimento.",
+          ANGL: "Preliminary animated version of a storyboard with timing and movement.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Key visual",
+        definition: {
+          FR: "Image principale représentant l'essence visuelle d'un projet ou d'une campagne.",
+          ALL: "Hauptbild, das die visuelle Essenz eines Projekts oder einer Kampagne repräsentiert.",
+          IT: "Immagine principale che rappresenta l'essenza visiva di un progetto o campagna.",
+          ANGL: "Main image representing the visual essence of a project or campaign.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Montage",
+        definition: {
+          FR: "Processus d'assemblage et d'organisation des séquences vidéo pour créer un récit.",
+          ALL: "Prozess der Zusammenstellung und Organisation von Videosequenzen zur Erstellung einer Erzählung.",
+          IT: "Processo di assemblaggio e organizzazione delle sequenze video per creare una narrazione.",
+          ANGL: "Process of assembling and organizing video sequences to create a narrative.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Étalonnage",
+        definition: {
+          FR: "Correction et harmonisation des couleurs d'une vidéo en post-production.",
+          ALL: "Korrektur und Harmonisierung der Farben eines Videos in der Postproduktion.",
+          IT: "Correzione e armonizzazione dei colori di un video in post-produzione.",
+          ANGL: "Color correction and harmonization of a video in post-production.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Mixage",
+        definition: {
+          FR: "Processus de combinaison et d'équilibrage des différentes pistes audio.",
+          ALL: "Prozess der Kombination und des Ausgleichs verschiedener Audiospuren.",
+          IT: "Processo di combinazione e bilanciamento delle diverse tracce audio.",
+          ANGL: "Process of combining and balancing different audio tracks.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Gimbal",
+        definition: {
+          FR: "Stabilisateur mécanique ou électronique pour caméras, éliminant les tremblements.",
+          ALL: "Mechanischer oder elektronischer Stabilisator für Kameras, eliminiert Verwacklungen.",
+          IT: "Stabilizzatore meccanico o elettronico per telecamere, elimina le vibrazioni.",
+          ANGL: "Mechanical or electronic stabilizer for cameras, eliminating shake.",
+        },
+        partOfSpeech: "noun",
+      },
+      {
+        word: "Steadicam",
+        definition: {
+          FR: "Système de stabilisation porté permettant des mouvements de caméra fluides.",
+          ALL: "Tragbares Stabilisierungssystem für flüssige Kamerabewegungen.",
+          IT: "Sistema di stabilizzazione indossabile per movimenti di camera fluidi.",
+          ANGL: "Wearable stabilization system for smooth camera movements.",
         },
         partOfSpeech: "noun",
       },
