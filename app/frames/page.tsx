@@ -2,10 +2,10 @@
 
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Search, List, Grid, Home } from "lucide-react"
+import { Search } from "lucide-react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
+import { MenuOverlay } from "@/components/menu-overlay"
 
 export default function FramesLayout() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -91,50 +91,23 @@ export default function FramesLayout() {
   }
 
   return (
-    <main className="min-h-screen bg-[#0F0F0F] py-8 px-4">
-      <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-center mb-8 bg-[#232D3F] p-4 rounded-lg">
-          <h1 className="text-3xl font-bold text-[#008170]">Glossaire IMD</h1>
-          <div className="flex gap-2">
-            <Link href="/">
-              <Button
-                variant="outline"
-                size="sm"
-                className="border-[#005B41] text-[#005B41] bg-transparent hover:bg-[#2d3a52]"
-              >
-                <Home className="h-4 w-4 mr-2" />
-                Accueil
-              </Button>
-            </Link>
-            <Link href="/list">
-              <Button
-                variant="outline"
-                size="sm"
-                className="border-[#005B41] text-[#005B41] bg-transparent hover:bg-[#2d3a52]"
-              >
-                <List className="h-4 w-4 mr-2" />
-                Liste
-              </Button>
-            </Link>
-            <Link href="/frames">
-              <Button
-                variant="default"
-                size="sm"
-                className="bg-[#232D3F] text-[#005B41] border border-[#005B41] hover:bg-[#2d3a52]"
-              >
-                <Grid className="h-4 w-4 mr-2" />
-                Cadres
-              </Button>
-            </Link>
-          </div>
+    <main className="min-h-screen p-6 md:p-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex justify-between items-center mb-8">
+          <Link href="/">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight transition-colors">
+              GLOSSAIRE IMD
+            </h1>
+          </Link>
+          <MenuOverlay />
         </div>
 
         <div className="relative mb-8">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 opacity-50 h-5 w-5" />
           <Input
             type="text"
             placeholder="Rechercher des mots ou définitions..."
-            className="pl-10 bg-[#232D3F] border-[#005B41] text-[#008170] placeholder:text-[#008170]/50"
+            className="pl-10 border-none h-12 font-body"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -150,8 +123,8 @@ export default function FramesLayout() {
                 <Link
                   href={`/word/${item.word.toLowerCase()}`}
                   className={cn(
-                    "p-6 border rounded-lg flex flex-col justify-between min-h-[180px] bg-[#232D3F] border-[#005B41]",
-                    hoveredIndex === index ? "shadow-xl border-[#008170]" : "hover:shadow-md",
+                    "p-6 border border-opacity-20 rounded-lg flex flex-col justify-between min-h-[180px] transition-all hover:opacity-80",
+                    hoveredIndex === index ? "shadow-xl scale-105" : "hover:shadow-md",
                   )}
                   onMouseEnter={() => setHoveredIndex(index)}
                 >
@@ -159,19 +132,19 @@ export default function FramesLayout() {
                     <div className="flex justify-between items-start mb-4">
                       <h2
                         className={cn(
-                          "font-bold transition-all duration-500 text-[#008170]",
+                          "font-heading font-bold transition-all duration-500",
                           hoveredIndex === index ? "text-3xl" : "text-2xl",
                         )}
                       >
                         {item.word}
                       </h2>
-                      <span className="text-xs px-2 py-1 bg-[#0F0F0F] bg-opacity-50 rounded-full border border-[#005B41] text-[#005B41]">
+                      <span className="text-xs px-2 py-1 rounded-full border border-opacity-20 font-body opacity-20">
                         {item.partOfSpeech}
                       </span>
                     </div>
                     <p
                       className={cn(
-                        "transition-all duration-500 text-[#008170]",
+                        "font-body transition-all duration-500 opacity-90",
                         hoveredIndex === index ? "text-lg" : "text-md",
                       )}
                     >
@@ -180,7 +153,7 @@ export default function FramesLayout() {
                   </div>
                   <div
                     className={cn(
-                      "mt-4 transition-all duration-500 text-[#005B41]",
+                      "mt-4 font-body transition-all duration-500 opacity-70",
                       hoveredIndex === index ? "text-base font-semibold" : "text-sm",
                     )}
                   >
@@ -192,7 +165,7 @@ export default function FramesLayout() {
           </div>
         ) : (
           <div className="text-center py-8">
-            <p className="text-[#008170]">Aucun mot trouvé correspondant à votre recherche.</p>
+            <p className="font-body">Aucun mot trouvé correspondant à votre recherche.</p>
           </div>
         )}
       </div>

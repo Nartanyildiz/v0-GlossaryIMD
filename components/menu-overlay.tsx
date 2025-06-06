@@ -91,7 +91,7 @@ export function MenuOverlay() {
             <nav className="space-y-16 text-center">
               <Link
                 href="/categories"
-                className="block text-4xl md:text-5xl font-medium tracking-wide text-[#00D0B4] hover:text-white transition-colors"
+                className="block text-4xl md:text-5xl font-heading font-medium tracking-wide text-[#00D0B4] hover:text-white transition-colors"
               >
                 {t("categories")}
               </Link>
@@ -99,7 +99,7 @@ export function MenuOverlay() {
               <div className="relative">
                 <button
                   onClick={toggleLanguages}
-                  className="block text-4xl md:text-5xl font-medium tracking-wide text-[#00D0B4] hover:text-white transition-colors mx-auto"
+                  className="block text-4xl md:text-5xl font-heading font-medium tracking-wide text-[#00D0B4] hover:text-white transition-colors mx-auto"
                 >
                   {t("language")} ({language})
                 </button>
@@ -108,25 +108,25 @@ export function MenuOverlay() {
                   <div className="absolute left-1/2 transform -translate-x-1/2 mt-6 bg-[#232D3F] rounded-lg p-4 min-w-[200px] z-50">
                     <div className="grid grid-cols-2 gap-4">
                       <button
-                        className={`p-3 text-xl ${language === "FR" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
+                        className={`p-3 text-xl font-body ${language === "FR" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
                         onClick={() => changeLanguage("FR")}
                       >
                         FR
                       </button>
                       <button
-                        className={`p-3 text-xl ${language === "ALL" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
+                        className={`p-3 text-xl font-body ${language === "ALL" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
                         onClick={() => changeLanguage("ALL")}
                       >
                         ALL
                       </button>
                       <button
-                        className={`p-3 text-xl ${language === "IT" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
+                        className={`p-3 text-xl font-body ${language === "IT" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
                         onClick={() => changeLanguage("IT")}
                       >
                         IT
                       </button>
                       <button
-                        className={`p-3 text-xl ${language === "ANGL" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
+                        className={`p-3 text-xl font-body ${language === "ANGL" ? "bg-[#00D0B4] text-[#0F0F0F]" : "text-[#00D0B4] hover:bg-[#1A2530]"} rounded transition-colors`}
                         onClick={() => changeLanguage("ANGL")}
                       >
                         ANGL
@@ -135,10 +135,6 @@ export function MenuOverlay() {
                   </div>
                 )}
               </div>
-
-              <button className="block text-4xl md:text-5xl font-medium tracking-wide text-[#00D0B4] hover:text-white transition-colors mx-auto">
-                {t("darkMode")}
-              </button>
             </nav>
           </div>
         </div>

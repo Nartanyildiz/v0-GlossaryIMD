@@ -1,7 +1,6 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { MenuOverlay } from "@/components/menu-overlay"
 
 // Dictionnaire complet avec informations détaillées
 const dictionaryData = {
@@ -81,70 +80,77 @@ export default function WordPage({ params }: { params: { word: string } }) {
 
   if (!wordData) {
     return (
-      <main className="min-h-screen bg-[#0F0F0F] py-8 px-4">
-        <div className="max-w-4xl mx-auto">
-          <Link href="/list">
-            <Button variant="ghost" className="mb-4 text-[#00D0B4] hover:bg-[#232D3F]/50">
-              <ArrowLeft className="mr-2 h-4 w-4" /> Retour au glossaire
-            </Button>
-          </Link>
-          <Card className="bg-[#232D3F] border-[#005B41]">
-            <CardHeader>
-              <CardTitle className="text-[#00D0B4]">Mot non trouvé</CardTitle>
-              <CardDescription className="text-[#00D0B4]">
-                Nous n'avons pas pu trouver le mot "{params.word}" dans notre glossaire.
-              </CardDescription>
-            </CardHeader>
-          </Card>
+      <main className="min-h-screen p-6 md:p-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex justify-between items-center mb-8">
+            <Link href="/">
+              <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight transition-colors">
+                GLOSSAIRE IMD
+              </h1>
+            </Link>
+            <MenuOverlay />
+          </div>
+
+          <div className="p-6 border border-opacity-20 rounded-lg">
+            <h2 className="text-xl font-heading font-medium mb-2">Mot non trouvé</h2>
+            <p className="font-body opacity-90">
+              Nous n'avons pas pu trouver le mot "{params.word}" dans notre glossaire.
+            </p>
+          </div>
         </div>
       </main>
     )
   }
 
   return (
-    <main className="min-h-screen bg-[#0F0F0F] py-8 px-4">
-      <div className="max-w-4xl mx-auto">
-        <Link href="/list">
-          <Button variant="ghost" className="mb-4 text-[#00D0B4] hover:bg-[#232D3F]/50">
+    <main className="min-h-screen p-6 md:p-12">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex justify-between items-center mb-8">
+          <Link href="/">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight transition-colors">
+              GLOSSAIRE IMD
+            </h1>
+          </Link>
+          <MenuOverlay />
+        </div>
+
+        <div className="mb-6">
+          <Link href="/" className="inline-flex items-center font-body opacity-70 hover:opacity-100 transition-opacity">
             <ArrowLeft className="mr-2 h-4 w-4" /> Retour au glossaire
-          </Button>
-        </Link>
+          </Link>
+        </div>
 
-        <Card className="bg-[#232D3F] border-[#005B41]">
-          <CardHeader>
-            <div className="flex justify-between items-start">
-              <div>
-                <CardTitle className="text-3xl text-[#00D0B4]">{wordData.word}</CardTitle>
-                <div className="text-sm text-[#00D0B4]/70 mt-1"></div>
-              </div>
-              <span className="text-sm px-2 py-1 bg-[#0F0F0F] rounded-full text-[#005B41] border border-[#005B41]">
-                {wordData.category}
-              </span>
-            </div>
-          </CardHeader>
-          <CardContent className="space-y-6">
+        <div className="p-6 border border-opacity-20 rounded-lg space-y-6">
+          <div className="flex justify-between items-start">
             <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Définition</h3>
-              <p className="text-[#00D0B4]">{wordData.extendedDefinition}</p>
+              <h2 className="text-3xl font-heading font-bold">{wordData.word}</h2>
             </div>
+            <span className="text-xs px-2 py-1 rounded-full border border-opacity-20 font-body opacity-20">
+              {wordData.category}
+            </span>
+          </div>
 
-            <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Étymologie</h3>
-              <p className="text-[#00D0B4]">{wordData.etymology}</p>
-            </div>
+          <div>
+            <h3 className="font-heading font-semibold text-lg mb-2">Définition</h3>
+            <p className="font-body opacity-90">{wordData.extendedDefinition}</p>
+          </div>
 
-            <div>
-              <h3 className="font-semibold text-lg mb-2 text-[#00D0B4]">Exemples</h3>
-              <ul className="list-disc pl-5 space-y-1">
-                {wordData.examples.map((example, index) => (
-                  <li key={index} className="text-[#00D0B4]">
-                    {example}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </CardContent>
-        </Card>
+          <div>
+            <h3 className="font-heading font-semibold text-lg mb-2">Étymologie</h3>
+            <p className="font-body opacity-90">{wordData.etymology}</p>
+          </div>
+
+          <div>
+            <h3 className="font-heading font-semibold text-lg mb-2">Exemples</h3>
+            <ul className="list-disc pl-5 space-y-1">
+              {wordData.examples.map((example, index) => (
+                <li key={index} className="font-body opacity-90">
+                  {example}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
   )

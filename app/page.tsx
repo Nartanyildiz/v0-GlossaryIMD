@@ -529,21 +529,21 @@ export default function DictionaryPage() {
   )
 
   return (
-    <main className="min-h-screen bg-black p-6 md:p-12">
+    <main className="min-h-screen p-6 md:p-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight text-[#00D0B4] transition-colors">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight transition-colors">
             GLOSSAIRE IMD
           </h1>
           <MenuOverlay />
         </div>
 
         <div className="relative mb-8">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#00D0B4] opacity-50 h-5 w-5" />
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 opacity-50 h-5 w-5" />
           <Input
             type="text"
             placeholder={t("search")}
-            className="pl-10 bg-[#232D3F] border-none text-[#00D0B4] placeholder:text-[#00D0B4] placeholder:opacity-50 h-12 font-body"
+            className="pl-10 border-none h-12 font-body"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -552,22 +552,19 @@ export default function DictionaryPage() {
         <div className="space-y-4">
           {filteredWords.length > 0 ? (
             filteredWords.map((item, index) => (
-              <div
-                key={index}
-                className="bg-[#232D3F] p-6 transition-all hover:opacity-80 rounded-lg border border-[#00D0B4] border-opacity-20"
-              >
+              <div key={index} className="p-6 transition-all hover:opacity-80 rounded-lg border border-opacity-20">
                 <div className="flex justify-between items-start mb-2">
-                  <h2 className="text-xl font-body font-medium text-[#00D0B4]">{item.word}</h2>
-                  <span className="text-xs px-2 py-1 bg-[#00D0B4] bg-opacity-20 rounded-full text-[#00D0B4] font-body">
+                  <h2 className="text-xl font-body font-medium">{item.word}</h2>
+                  <span className="text-xs px-2 py-1 rounded-full font-body opacity-20">
                     {translateCategory(item.category)}
                   </span>
                 </div>
-                <p className="text-[#00D0B4] opacity-90 font-body">{item.definition[language]}</p>
+                <p className="opacity-90 font-body">{item.definition[language]}</p>
               </div>
             ))
           ) : (
             <div className="text-center py-8">
-              <p className="text-[#00D0B4] font-body">{t("noResults")}</p>
+              <p className="font-body">{t("noResults")}</p>
             </div>
           )}
         </div>
